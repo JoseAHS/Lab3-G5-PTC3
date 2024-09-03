@@ -18,17 +18,25 @@ int potencia(int num, int exponente) {
 
 
 int main() {
+
+
+    std::cout << "PROGRAMA SUMA RECURSIVA"<<std::endl;
+
     int n;
 
-    std::cout << "Ingrese un número natural: ";
+    std::cout << "Ingrese un numero natural: ";
     std::cin >> n;
 
     if (n < 0) {
-        std::cout << "El número debe ser un natural (mayor o igual a 0)." << std::endl;
+        std::cout << "El numero debe ser un natural (mayor o igual a 0)." << std::endl;
         return 1;
     }
 
-    std::cout << "La suma de los primeros " << n << " números naturales es: " << SumaRecursiva(n) << std::endl;
+    std::cout << "La suma de los primeros " << n << " numeros naturales es: " << SumaRecursiva(n) << std::endl;
+
+    std::cout <<std::endl;
+    std::cout << "PROGRAMA POTENCIA DE NUMEROS"<<std::endl;
+    std::cout <<std::endl;
 
     int num, exponente;
 
